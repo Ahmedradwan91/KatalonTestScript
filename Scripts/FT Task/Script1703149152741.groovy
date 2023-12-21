@@ -34,6 +34,7 @@ Mobile.tap(findTestObject('Object Repository/android.widget.Button - Lets  Shop'
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - ADD TO CART'), 0)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.ImageButton'), 0)
+WebUI.delay(3)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/android.widget.TextView - Air Jordan 4 Retro'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
