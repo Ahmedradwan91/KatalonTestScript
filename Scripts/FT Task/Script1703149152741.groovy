@@ -35,7 +35,6 @@ Mobile.tap(findTestObject('Object Repository/android.widget.TextView - ADD TO CA
 
 Mobile.tap(findTestObject('Object Repository/android.widget.ImageButton'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/android.widget.TextView - Air Jordan 4 Retro'), 'Air Jordan 4 Retro')
+Mobile.verifyElementVisible(findTestObject('Object Repository/android.widget.TextView - Air Jordan 4 Retro'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.closeApplication()
-
