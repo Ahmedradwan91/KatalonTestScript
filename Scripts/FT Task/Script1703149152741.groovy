@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Ahmed Radwan\\Downloads\\General-Store.apk', true)
+def gitHubAPKUrl = 'https://github.com/Ahmedradwan91/Flairs-Tech/raw/main/General-Store.apk'
+
+Mobile.startApplication(gitHubAPKUrl, true)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Afghanistan'), 0)
 
