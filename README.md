@@ -8,3 +8,4 @@ Task:
 6- Add one product to the cart.
 7- Navigate to the cart screen.
 8- Assert that the product is displayed.
+"# KatalonTestScript" 
